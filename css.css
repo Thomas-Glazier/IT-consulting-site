@@ -49,4 +49,25 @@ font-size: 22px;
 header {
   font-size: 35px;
 }
-
+@media screen and (max-width: 600px) {
+  .p2 {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .p2 {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+.p1  { flex: 100%;
+  max-width: 100%;}
+}
+@media screen and (max-width: 800px) {
+  .p1 {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
