@@ -74,4 +74,22 @@ header {
 @media screen and (max-width:600) {
 
   
+}.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width: 768px) {
+  .column {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    grid-row-gap: 100px;
+  }
 }
