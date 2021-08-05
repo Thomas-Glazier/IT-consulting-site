@@ -2,7 +2,6 @@ This website is a site I plan to continue working on and eventually host for my 
 
 CSS feature list:
 1. A hamburger menu to navigate to other pages on the site.
-
 2.Used Flexbox and CSS grid elements to change the way content is displayed on the screen for different sized devices
 
 JavaScript feature list:
