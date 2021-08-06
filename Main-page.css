@@ -19,18 +19,18 @@
 
 #hamnav label, #hamburger { display: none; }
 
-
+/* Changes size of hamburger menu */
 @media screen and (max-width: 768px){
- 
+
   #hamitems a {
     box-sizing: border-box;
     display: block;
     width: 100%;
     border-top: 1px solid #333;
   }
-  
-  #hamnav label { 
-    display: inline-block; 
+
+  #hamnav label {
+    display: inline-block;
     color: white;
     background: #a02620;
     font-style: normal;
@@ -38,7 +38,7 @@
     padding: 10px;
   }
 
-  
+
   #hamitems { display: none; }
   #hamnav input:checked ~ #hamitems { display: block; }
 }
@@ -49,6 +49,7 @@ font-size: 22px;
 header {
   font-size: 35px;
 }
+/* Controls image gallery */
 @media screen and (max-width: 600px) {
   .p {
     flex: 100%;
@@ -61,10 +62,10 @@ header {
     max-width: 50%;
   }
 }
-
+/* Shifts text colums from two to one with screen size and vise versa */
 @media screen and (max-width:600) {
 
-  
+
 }.column {
   float: left;
   width: 50%;
